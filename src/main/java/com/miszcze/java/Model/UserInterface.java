@@ -1,0 +1,17 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+package com.miszcze.java.Model;
+
+/**
+ *
+ * @author BTurek
+ */
+public interface UserInterface {
+    public String getUserId(String Login, String Password);
+    public boolean getIsTeacher();
+    public String getLogin();
+}
